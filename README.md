@@ -1,4 +1,4 @@
-# 🌐 CodeAlpha - Language Translation Tool
+# 🌐Language Translation Tool
 
 This is a submission for the **Artificial Intelligence Internship at CodeAlpha**.
 
