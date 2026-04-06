@@ -20,4 +20,4 @@ A simple and interactive **language translation web app** built using Python and
 ### 1. Clone the Repo
 ```bash
 git clone https://github.com/yourusername/CodeAlpha_LanguageTranslationTool.git
-cd CodeAlpha_LanguageTranslationTool
+cd LanguageTranslationTool
