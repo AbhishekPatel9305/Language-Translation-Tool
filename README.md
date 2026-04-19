@@ -1,17 +1,17 @@
 # Language Translation Tool
 
-A simple translation web application built with Streamlit that allows users to translate text between languages and listen to the translated output using text-to-speech.
+A Streamlit-based translation web application that allows users to translate text between languages and listen to the translated result using text-to-speech.
 
 ## Overview
 
-This project provides a lightweight interface for multilingual text conversion. Users can enter source text, choose source and target language codes, and generate a translated version along with audio playback.
+This project provides a lightweight multilingual interface for text translation. Users can enter source text, provide source and target language codes, generate the translation, and play the translated output directly in the app.
 
 ## Features
 
-- text translation between user-selected languages
-- simple Streamlit-based interface
-- translated text display
-- text-to-speech audio output using gTTS
+- translate text between user-selected languages
+- browser-based Streamlit interface
+- translated text display with source-language detection
+- in-app audio playback for translated text
 
 ## Tech Stack
 
@@ -27,7 +27,7 @@ This project provides a lightweight interface for multilingual text conversion. 
 ## How To Run
 
 ```bash
-pip install streamlit googletrans==4.0.0-rc1 gtts
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
@@ -36,7 +36,7 @@ streamlit run app.py
 1. Enter the text to translate.
 2. Provide the source language code, such as `en`.
 3. Provide the target language code, such as `hi`, `fr`, or `es`.
-4. Click `Translate` to generate the translated text and audio.
+4. Click `Translate` to view the translated text and play the generated audio.
 
 ## Learning Focus
 
